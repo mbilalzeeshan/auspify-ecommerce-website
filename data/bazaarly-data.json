@@ -1,0 +1,191 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@example.com",
+      "name": "Demo User",
+      "password_hash": "3973846be7e43055053549ef5567a96a:0c6ffe087ed8e8f3ff1d6a653dcdc077fce45b0e31a7ba0f04359d4a8a64a8e51e814a14c61b07ca28ea71945054d0d53950ece2df0232e9fdfb51c30022e2e0",
+      "role": "user",
+      "created_at": "2026-10-12T18:32:48.592Z"
+    },
+    {
+      "id": 2,
+      "email": "admin@example.com",
+      "name": "Store Admin",
+      "password_hash": "ae39e706fb235738e02258dd140394a2:7c16c66c10c3b55df530c8210da3e08afda5971f9933d8c5114e248b701f09532f35d4e3ecf85a8000dd7490c26604baee79be0bad21454be4af6088a3e9f2e1",
+      "role": "admin",
+      "created_at": "2026-10-12T18:32:48.645Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "00a338716c276814fd1599de0b2e467ace3999d403d44734dac6c5d2ca1d6bac",
+      "user_id": 2,
+      "created_at": "2026-10-12T18:32:49.447Z"
+    },
+    {
+      "token": "0e7e8bd4338fbb206df671320832c19ec3bead99420b9bdcc4c580bc5dc68e51",
+      "user_id": 1,
+      "created_at": "2026-10-12T18:32:49.525Z"
+    },
+    {
+      "token": "848fe9550abad3e68ea1e72f5c02b6ace0a8314590415396d48de0984cacea96",
+      "user_id": 2,
+      "created_at": "2026-10-12T18:33:18.764Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "VoltPods Pro Wireless Earbuds",
+      "description": "Bluetooth 5.3 true-wireless earbuds with active noise cancellation, 36-hour total battery life, and touch controls.",
+      "price": 4999,
+      "category": "Electronics",
+      "stock": 24
+    },
+    {
+      "id": 2,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "PixelForge 65W GaN Fast Charger",
+      "description": "Compact gallium-nitride wall charger with two USB-C and one USB-A port, safe for laptops, phones, and tablets.",
+      "price": 3299,
+      "category": "Electronics",
+      "stock": 40
+    },
+    {
+      "id": 3,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Lumina Mechanical Keyboard",
+      "description": "Tenkeyless mechanical keyboard with tactile switches, per-key RGB, and hot-swappable keycaps for custom builds.",
+      "price": 7499,
+      "category": "Electronics",
+      "stock": 15
+    },
+    {
+      "id": 4,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Essential Cotton T-Shirt (3-Pack)",
+      "description": "Three breathable 100% cotton crew-neck tees in white, black, and navy. Pre-shrunk and tag-free.",
+      "price": 1899,
+      "category": "Clothing",
+      "stock": 60
+    },
+    {
+      "id": 5,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Trailhead Denim Jacket",
+      "description": "Classic mid-weight denim trucker jacket with a relaxed fit and copper hardware. Ages well with every wash.",
+      "price": 5499,
+      "category": "Clothing",
+      "stock": 18
+    },
+    {
+      "id": 6,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Cloudstep Running Sneakers",
+      "description": "Lightweight knit running shoes with cushioned foam midsoles and reflective details for evening runs.",
+      "price": 6999,
+      "category": "Clothing",
+      "stock": 30
+    },
+    {
+      "id": 7,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "HerbGarden Ceramic Planter Set",
+      "description": "Set of three glazed ceramic planters with drainage holes and bamboo trays, sized for kitchen herbs.",
+      "price": 2499,
+      "category": "Home & Kitchen",
+      "stock": 35
+    },
+    {
+      "id": 8,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "ChefLine Stainless Steel Knife Set",
+      "description": "Five-piece German steel knife set with ergonomic handles, honing rod, and a wooden storage block.",
+      "price": 8999,
+      "category": "Home & Kitchen",
+      "stock": 12
+    },
+    {
+      "id": 9,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "GlowRest LED Desk Lamp",
+      "description": "Dimmable LED desk lamp with five color temperatures, a USB charging port, and a fold-flat arm.",
+      "price": 2799,
+      "category": "Home & Kitchen",
+      "stock": 28
+    },
+    {
+      "id": 10,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "The Startup Playbook",
+      "description": "A practical 320-page guide to launching a company, covering validation, funding, and early growth tactics.",
+      "price": 1499,
+      "category": "Books",
+      "stock": 50
+    },
+    {
+      "id": 11,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Deep Work: Rules for Focus",
+      "description": "A bestselling book on building concentration habits and producing meaningful work in a distracted world.",
+      "price": 1299,
+      "category": "Books",
+      "stock": 45
+    },
+    {
+      "id": 12,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "JavaScript: The Definitive Guide",
+      "description": "Comprehensive 700-page reference covering modern JavaScript, the DOM, and Node.js fundamentals.",
+      "price": 3499,
+      "category": "Books",
+      "stock": 20
+    },
+    {
+      "id": 13,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "ProGrip Yoga Mat",
+      "description": "Extra-thick 6mm non-slip yoga mat with alignment lines and a carry strap. Sweat-resistant surface.",
+      "price": 2199,
+      "category": "Sports",
+      "stock": 33
+    },
+    {
+      "id": 14,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Velocity Resistance Band Set",
+      "description": "Five stackable resistance bands from light to extra-heavy, with handles, ankle straps, and a door anchor.",
+      "price": 1799,
+      "category": "Sports",
+      "stock": 42
+    },
+    {
+      "id": 15,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Strider Insulated Water Bottle",
+      "description": "750ml double-wall vacuum-insulated steel bottle. Keeps drinks cold 24 hours, hot 12 hours.",
+      "price": 1599,
+      "category": "Sports",
+      "stock": 55
+    },
+    {
+      "id": 16,
+      "created_at": "2026-10-12T18:32:48.535Z",
+      "name": "Summit Trail Backpack 30L",
+      "description": "Durable 30-liter daypack with padded hip belt, rain cover, and a ventilated back panel for long hikes.",
+      "price": 4799,
+      "category": "Sports",
+      "stock": 16
+    }
+  ],
+  "cart_items": [],
+  "orders": [],
+  "order_items": [],
+  "seq": {
+    "users": 3,
+    "products": 18,
+    "orders": 1
+  }
+}
