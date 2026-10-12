@@ -1,0 +1,1 @@
+{"author":"Muhammad Bilal Zeeshan","dependencies":{"better-sqlite3":"^11.8.1","express":"^4.19.2"},"description":"Bazaarly - a full-stack e-commerce web app built with Node.js, Express, and SQLite","keywords":["ecommerce","express","sqlite","full-stack"],"license":"MIT","main":"server.js","name":"ecommerce-website","scripts":{"start":"node server.js"},"version":"1.0.0"}
