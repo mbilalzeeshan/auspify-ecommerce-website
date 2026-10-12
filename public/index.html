@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bazaarly - Everything you love, delivered</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#/" class="logo">Bazaarly</a>
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products">
+        <button id="searchBtn" type="button">Search</button>
+      </div>
+      <nav class="main-nav">
+        <a href="#/" data-nav>Shop</a>
+        <a href="#/orders" data-nav data-auth>Orders</a>
+        <a href="#/admin" data-nav data-admin hidden>Admin</a>
+        <a href="#/login" data-nav data-guest>Log in</a>
+        <a href="#/cart" class="cart-link" data-nav>Cart <span id="cartCount" class="cart-badge">0</span></a>
+        <span id="userChip" class="user-chip" hidden></span>
+        <button id="logoutBtn" class="link-btn" type="button" hidden>Log out</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <footer class="site-footer">
+    <p>Bazaarly &middot; a demo storefront built with Node.js, Express, and SQLite</p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
