@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# SQLite database files (created at runtime, seeded on first boot)
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Logs and OS files
+*.log
+.DS_Store
